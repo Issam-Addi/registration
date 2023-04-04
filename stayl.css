@@ -1,0 +1,30 @@
+.input-stayl{
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 16px;
+}
+
+.input-stayl:focus {
+    outline: none;
+    border-bottom: 2px solid #007bff;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.button {
+    width: 10em;
+    height: 2.5em;
+    border-radius: 5px;
+    background: linear-gradient(45deg, black, transparent);
+    color: white;
+}
+.button:hover{
+    background-color: green;
+}
